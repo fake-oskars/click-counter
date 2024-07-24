@@ -1,0 +1,42 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    overflow: hidden;
+  }
+  
+  #stats {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+    font-family: 'Noto Sans', 'Noto Sans Symbols', sans-serif;
+  }
+  
+  #liveCount {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1a73e8;
+  }
+  
+  #dayCounts, #weekCounts, #monthCounts, #yearCounts {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666666;
+  }

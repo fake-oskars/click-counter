@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click Counter</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+Symbols&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      height: 400px;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    #stats {
+      height: 380px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="stats">
+    <h1>✨Click counter✨</h1>
+    <div id="liveCount">Total Clicks: 0</div>
+    <div id="dayCounts"></div>
+    <div id="weekCounts"></div>
+    <div id="monthCounts"></div>
+    <div id="yearCounts"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
